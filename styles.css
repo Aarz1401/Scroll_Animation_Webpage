@@ -1,0 +1,65 @@
+body, html {
+    height:100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(188, 167, 167, 0.5);
+    align-items: center;
+    
+}
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax0 {
+    background-image: url('images/Aria_0.png');
+}
+
+#parallax1 {
+    background-image: url('images/Aria_1.png');
+}
+
+#parallax2 {
+    background-image: url('images/Aria_2.png');
+}
+
+#parallax3 {
+    background-image: url('images/Aria_3.png');
+}
+
+#parallax4 {
+    background-image: url('images/Aria_4.png');
+}
+
+
+.content {
+    height: 50%;
+    width:100%;
+    background-color: rgba(16, 1, 1, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+}
+
+.parallax-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(217, 199, 199, 0.5);
+    color: rgb(15, 1, 1);
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
